@@ -1,0 +1,122 @@
+{
+  "assets": [
+    {
+      "id": 0,
+      "name": "El salto"
+    }
+  ],
+  "stations": [
+    {
+      "id": 0,
+      "assetId": 0,
+      "name": "Estación norte",
+      "total_energy": 0,
+      "address": "Avenida Siempre Viva 1234, Santiago, RM"
+    },
+    {
+      "id": 1,
+      "assetId": 0,
+      "name": "Estación sur",
+      "total_energy": 0,
+      "address": "Calle Falsa 4321, Santiago, RM"
+    }
+  ],
+  "chargers": [
+    {
+      "id": 0,
+      "stationId": 0,
+      "name": "Cargador A",
+      "energy_supplied": 1000
+    },
+    {
+      "id": 1,
+      "stationId": 0,
+      "name": "Cargador B",
+      "energy_supplied": 1000
+    },
+    {
+      "id": 2,
+      "stationId": 1,
+      "name": "Cargador C",
+      "energy_supplied": 1000
+    },
+    {
+      "id": 3,
+      "stationId": 1,
+      "name": "Cargador D",
+      "energy_supplied": 1000
+    }
+  ],
+  "connectors": [
+    {
+      "id": 0,
+      "chargerId": 0,
+      "name": "A1",
+      "status": "charging",
+      "charge_percentage": 80
+    },
+    {
+      "id": 1,
+      "chargerId": 0,
+      "name": "A2",
+      "status": "faulted",
+      "charge_percentage": null
+    },
+    {
+      "id": 2,
+      "chargerId": 0,
+      "name": "A3",
+      "status": "available",
+      "charge_percentage": null
+    },
+    {
+      "id": 3,
+      "chargerId": 1,
+      "name": "A4",
+      "status": "faulted",
+      "charge_percentage": null
+    },
+    {
+      "id": 4,
+      "chargerId": 1,
+      "name": "A5",
+      "status": "charging",
+      "charge_percentage": 20
+    },
+    {
+      "id": 5,
+      "chargerId": 1,
+      "name": "A6",
+      "status": "charging",
+      "charge_percentage": 40
+    },
+    {
+      "id": 6,
+      "chargerId": 2,
+      "name": "A7",
+      "status": "available",
+      "charge_percentage": null
+    },
+    {
+      "id": 7,
+      "chargerId": 2,
+      "name": "A8",
+      "status": "available",
+      "charge_percentage": null
+    },
+    {
+      "id": 8,
+      "chargerId": 3,
+      "name": "A9",
+      "status": "available",
+      "charge_percentage": null
+    },
+    {
+      "id": 9,
+      "chargerId": 3,
+      "name": "A10",
+      "status": "available",
+      "charge_percentage": null
+    }
+  ]
+}

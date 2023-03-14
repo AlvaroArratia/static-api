@@ -10,14 +10,14 @@
       "id": 0,
       "assetId": 0,
       "name": "Estación norte",
-      "total_energy": 0,
+      "total_energy": 890,
       "address": "Avenida Siempre Viva 1234, Santiago, RM"
     },
     {
       "id": 1,
       "assetId": 0,
       "name": "Estación sur",
-      "total_energy": 0,
+      "total_energy": 700,
       "address": "Calle Falsa 4321, Santiago, RM"
     }
   ],
@@ -32,19 +32,19 @@
       "id": 1,
       "stationId": 0,
       "name": "Cargador B",
-      "energy_supplied": 1000
+      "energy_supplied": 800
     },
     {
       "id": 2,
       "stationId": 1,
       "name": "Cargador C",
-      "energy_supplied": 1000
+      "energy_supplied": 950
     },
     {
       "id": 3,
       "stationId": 1,
       "name": "Cargador D",
-      "energy_supplied": 1000
+      "energy_supplied": 500
     }
   ],
   "connectors": [
